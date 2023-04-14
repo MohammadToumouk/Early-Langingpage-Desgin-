@@ -1,0 +1,435 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+body{
+	background-image:url("https://wallpapers.com/images/hd/aesthetic-pixel-art-hd-phr63a8sdspo0ek1.jpg");
+	background-size:contain;
+	width:100%;
+	background-size:100%;
+	height:100%
+	justify-content:center;
+	display:inline;
+	float:left;
+
+}
+
+header{
+	
+	position:fixed;
+	
+	width:100%;
+	height:15%;
+	background:transparent;
+	backdrop-filter:blur(5px);
+	border-radius:15px;
+	display:flex;
+	justify-content:center;
+}
+
+
+.logo{
+	position:fixed;
+	height:100%;
+	top:0;
+	justify-content:center;
+	mix-blend-mode: multiply;
+	top:0;
+	position:relative;
+	
+}
+.logo:hover{
+			-webkit-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			transform: scale(1.2);
+			transition: 1s ease;
+	
+}
+ul{
+	position:fixed;
+	left:2%;
+	top:15%;
+	list-style-type:none;
+	justify-content:left;
+	display:flex;
+	padding:15px;
+	
+}
+
+li{
+	
+	font-family: 'Tilt Neon', cursive;
+	font-size:1.5em;
+	padding:20px;
+	border-radius:15px;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+li:hover{
+	
+	background:transparent;
+	backdrop-filter:blur(1px);
+	box-shadow:inset 0 -2px 0 0 yellow; 
+	transition:0.3s;
+	
+}
+#con{
+	display:flex;
+	float:left;
+	padding-top:5%;
+	
+	
+}
+.container{
+	
+	width:26em;
+	height:25%;
+	backdrop-filter:blur(10px);
+	
+	background:transparent;
+	border-radius:15px;
+	
+	position:relative;
+	top:250px;
+	font-family: 'Tilt Neon', cursive;
+	font-size:1.3em;
+	padding:16px;
+	align-items:center;
+	justify-content:center;
+	vertical-align:center;
+	left:40%;
+	
+	
+}
+.container2{
+	
+	width:26em;
+	height:25%;
+	backdrop-filter:blur(10px);
+	
+	background:transparent;
+	border-radius:15px;
+	
+	position:relative;
+	top:120px;
+	font-family: 'Kufam', sans-serif;
+	font-size:1.3em;
+	padding:16px;
+	align-items:center;
+	justify-content:center;
+	vertical-align:center;
+	left:40%;
+}
+.artext{
+	font-family: 'Kufam', sans-serif;
+}
+h1{
+	font-family: 'Tilt Neon', cursive;
+	font-weight:500;
+}
+blockquote{
+	color:yellow;
+}
+.container:hover{
+	transition:0.3s;
+	box-shadow:10px 10px 10px 10px rgba(0,0,0,.2);
+	cursor:default;
+}
+.container2:hover{
+	transition:0.3s;
+	box-shadow: 15px 0 0 3px rgba(0,0,0,.2);
+	cursor:default;
+}
+.buttons{
+	position:relative;
+	padding:0;
+	margin-top:2%;
+	margin-right:2%;
+	right:0;
+	width:2.7em;
+	float:right;
+	font-size:1em;
+	display:inline-table;
+	
+	
+	
+}
+
+.btn1{
+	background:transparent;
+	backdrop-filter:blur(10px);
+	font-size:1.5em;
+	font-family: 'Kanit', sans-serif;
+	border-radius:20px;
+	border:1px solid transparent;
+	border-radius:10px;
+	padding:5px;
+	
+}
+.btn2{
+	background:transparent;
+	backdrop-filter:blur(10px);
+	font-size:1.5em;
+	font-family: 'Kanit', sans-serif;
+	border-radius:20px;
+	border:1px solid transparent;
+	border-radius:10px;
+	padding:5px;
+	
+}
+.btn1:hover{
+	background:transparent;
+	backdrop-filter:blur(1px);
+	box-shadow:inset 0 -2px 0 0 yellow; 
+	transition:0.3s;
+}
+
+.btn2:hover{
+	background:transparent;
+	backdrop-filter:blur(1px);
+	box-shadow:inset 0 -2px 0 0 yellow; 
+	transition:0.3s;
+}
+.btn1:before {  
+  transform: scaleX(0.1);
+  transform-origin: bottom right;
+}
+
+.btn1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+}
+
+.btn2:before {  
+  transform: scaleX(0.1);
+  transform-origin: bottom right;
+}
+
+.btn2:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+}
+
+
+footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:4%;
+	background-color:transparent;
+	
+}
+.grow{
+	mix-blend-mode:multiply;
+	justify-content:center;
+	
+	mix-blend-mode:darken;
+	align-items:center;
+	position:relative;
+	left:0;
+	bottom:67px;
+	
+}
+
+.scrolldown{
+	mix-blend-mode:multiply;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+	left:49%;
+	bottom:20px;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {bottom: 80px;}
+  to {bottom: 10px;}
+}
+.page2{
+	background-image:url("https://images.hdqwalls.com/wallpapers/cyberpunk-colorful-ai-art-5k-0u.jpg");
+	background-position:relative;
+	margin-top:30%;
+	height:1200px;
+	top:200px;
+	
+	background-size:cover;
+	
+	
+}
+.page2bereich{
+	position:relative;
+	vertical-align:center;
+	text-align:center;
+	font-family: 'Tilt Neon', cursive;
+	font-size:1.5em;
+	color:black bold;
+	float:right;
+	margin-top:3%;
+	padding:10px 5px 10px 5px ;
+	width:16em;
+	height:24em;
+	background:transparent;
+	background-color: rgba(255, 255, 255, 0.4);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	border:solid 1px black;
+	justify-content:center;
+	align-items:center;
+	top:0;
+	left: -39.5%;
+	
+	
+	
+}
+.submitbut{
+	text-align:center;
+	font-family: 'Tilt Neon', cursive;
+	font-size:0.7em;
+	padding:2%;
+	margin:4%;
+	border:0;
+	width:75%;
+	border-radius:15px 5px 15px 0	;
+	font-size:0.9em;
+	background:rgba(0, 0, 0, 0.8);
+	color:white;
+	
+}
+
+.passbut{
+	background:transparent;
+	padding:10px 5px 0 5px ;
+	margin-top:0;
+	width:80%;
+	size:100%;
+	border:transparent;
+	box-shadow: 0 1px 0 0 white;
+	mix-blend-mode: multiply;
+	backdrop-filter:none;
+	user-select: all; 
+	font-family: 'Tilt Neon', cursive;
+	font-size:0.9em;
+	
+}
+.emailbut{
+	background:transparent;
+	padding:10px 5px 0 5px ;
+	margin-top:0;
+	width:80%;
+	size:100%;
+	border:transparent;
+	box-shadow: 0 1px 0 0 white;
+	mix-blend-mode: multiply;
+	backdrop-filter:none;
+	user-select: all; 
+	font-family: 'Tilt Neon', cursive;
+	font-size:0.9em;
+	
+}
+.remember{
+	width:10px;
+	height:10px;
+	border:solid 1px black;
+	border-radius:3px;
+	
+}
+
+p{
+	
+	mix-blend-mode: normal;
+}
+.submitbut:hover{
+	
+	
+	transition:0.3s ease;
+	box-shadow:inset 0 40px 0 0 rgba(255 0 0 );
+	background:transparent;
+	
+}
+
+
+.page2bereich:hover{
+	box-shadow: 15px 10px 10px rgba(255,0,0,.5);
+	
+	transition: 0.5s ease;
+}
+.logintext{
+	color:white;
+	top:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+	padding-bottom:20px;
+	
+}
+.text1{
+	font-size:1.5em;
+	padding-top:50px;
+	margin:0;
+	
+	
+}
+.text2{
+	border-top:1px solid white;
+	width:70%;
+	padding-top:10%;
+	margin-left:15%;
+	margin-right:15%;
+}
+.google{
+	
+	position:relative;
+	top:0;
+	right:0;
+	
+}
+.google:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(0.1);
+	transform: scale(1.1);
+	transition: 1s ease;
+	
+	
+}
+.googlelogo:hover{
+	
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+.twitterlogo:hover{
+	
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+.micrologo:hover{
+	
+	
+}
+.aboutus{
+	justify-content:center;
+	position:relative;
+	box-shadow: 5px 5px 5px 0 rgba(224, 255, 255, 1);
+	background-color:transparent;
+	color:rgb(224, 255, 255);
+	border-radius:35px;
+	width:60%;
+	text-align:center;
+	margin-left:20%;
+	margin-right:20%;
+	font-family: 'Righteous', cursive;	
+	font-size:1.7em;
+}
+.aboutus:hover{
+		color:yellow;
+		
+		box-shadow: inset 5px yellow;
+		transition:5s;
+}
